@@ -1,0 +1,68 @@
+[2022-11-10 20:22:04 MESICache] (simulator.py 60): INFO Instruction 0:
+[2022-11-10 20:22:04 MESICache] (simulator.py 61): INFO Op:R,address:0x7c71,Processor:0
+[2022-11-10 20:22:04 MESICache] (cache.py 148): INFO Cache 0: Read request address 0x7c71
+[2022-11-10 20:22:04 MESICache] (cache.py 153): INFO Cache 0: Line not present
+[2022-11-10 20:22:04 MESICache] (cache.py 159): INFO Cache 0: Sent a read miss on bus
+[2022-11-10 20:22:04 MESICache] (cache.py 167): INFO Cache 0: Fetched from main memory, Line State E
+[2022-11-10 20:22:04 MESICache] (simulator.py 60): INFO Instruction 1:
+[2022-11-10 20:22:04 MESICache] (simulator.py 61): INFO Op:R,address:0x7c71,Processor:0
+[2022-11-10 20:22:04 MESICache] (cache.py 148): INFO Cache 0: Read request address 0x7c71
+[2022-11-10 20:22:04 MESICache] (cache.py 171): INFO Cache 0: Line in state E
+[2022-11-10 20:22:04 MESICache] (cache.py 175): INFO Cache 0: Read data in local cache
+[2022-11-10 20:22:04 MESICache] (simulator.py 60): INFO Instruction 2:
+[2022-11-10 20:22:04 MESICache] (simulator.py 61): INFO Op:R,address:0x7f51,Processor:0
+[2022-11-10 20:22:04 MESICache] (cache.py 148): INFO Cache 0: Read request address 0x7f51
+[2022-11-10 20:22:04 MESICache] (cache.py 153): INFO Cache 0: Line not present
+[2022-11-10 20:22:04 MESICache] (cache.py 159): INFO Cache 0: Sent a read miss on bus
+[2022-11-10 20:22:04 MESICache] (cache.py 167): INFO Cache 0: Fetched from main memory, Line State E
+[2022-11-10 20:22:04 MESICache] (simulator.py 60): INFO Instruction 3:
+[2022-11-10 20:22:04 MESICache] (simulator.py 61): INFO Op:W,address:0x7b51,Processor:0
+[2022-11-10 20:22:04 MESICache] (cache.py 193): INFO Cache 0: write request address 0x7b51
+[2022-11-10 20:22:04 MESICache] (cache.py 198): INFO Cache 0: Line not present
+[2022-11-10 20:22:04 MESICache] (cache.py 204): INFO Cache 0: Send write miss on bus
+[2022-11-10 20:22:04 MESICache] (cache.py 209): INFO Cache 0: Write data in local cache
+[2022-11-10 20:22:04 MESICache] (simulator.py 60): INFO Instruction 4:
+[2022-11-10 20:22:04 MESICache] (simulator.py 61): INFO Op:W,address:0x7b51,Processor:0
+[2022-11-10 20:22:04 MESICache] (cache.py 193): INFO Cache 0: write request address 0x7b51
+[2022-11-10 20:22:04 MESICache] (cache.py 211): INFO Cache 0: Line in state E
+[2022-11-10 20:22:04 MESICache] (cache.py 217): INFO Cache 0: Write data in local cache
+[2022-11-10 20:22:04 MESICache] (cache.py 219): INFO Cache 0: Change state to modified
+[2022-11-10 20:22:04 MESICache] (simulator.py 60): INFO Instruction 5:
+[2022-11-10 20:22:04 MESICache] (simulator.py 61): INFO Op:R,address:0x7b51,Processor:1
+[2022-11-10 20:22:04 MESICache] (cache.py 148): INFO Cache 1: Read request address 0x7b51
+[2022-11-10 20:22:04 MESICache] (cache.py 153): INFO Cache 1: Line not present
+[2022-11-10 20:22:04 MESICache] (cache.py 159): INFO Cache 1: Sent a read miss on bus
+[2022-11-10 20:22:04 MESICache] (cache.py 96): INFO Cache 0: Bus request address 0x7b51 from Cache 1
+[2022-11-10 20:22:04 MESICache] (cache.py 106): INFO Cache 0: Remote need to read,Shared cache block
+[2022-11-10 20:22:04 MESICache] (cache.py 96): INFO Cache 1: Bus request address 0x7b51 from Cache 0
+[2022-11-10 20:22:04 MESICache] (cache.py 131): INFO Cache 1: Received cache block from Cache 0
+[2022-11-10 20:22:04 MESICache] (cache.py 109): INFO Cache 0: Changed state to Shared
+[2022-11-10 20:22:04 MESICache] (cache.py 169): INFO Cache 1: Snooped from other cache, Line State S
+[2022-11-10 20:22:04 MESICache] (simulator.py 60): INFO Instruction 6:
+[2022-11-10 20:22:04 MESICache] (simulator.py 61): INFO Op:R,address:0x7c71,Processor:1
+[2022-11-10 20:22:04 MESICache] (cache.py 148): INFO Cache 1: Read request address 0x7c71
+[2022-11-10 20:22:04 MESICache] (cache.py 153): INFO Cache 1: Line not present
+[2022-11-10 20:22:04 MESICache] (cache.py 159): INFO Cache 1: Sent a read miss on bus
+[2022-11-10 20:22:04 MESICache] (cache.py 96): INFO Cache 0: Bus request address 0x7c71 from Cache 1
+[2022-11-10 20:22:04 MESICache] (cache.py 106): INFO Cache 0: Remote need to read,Shared cache block
+[2022-11-10 20:22:04 MESICache] (cache.py 96): INFO Cache 1: Bus request address 0x7c71 from Cache 0
+[2022-11-10 20:22:04 MESICache] (cache.py 131): INFO Cache 1: Received cache block from Cache 0
+[2022-11-10 20:22:04 MESICache] (cache.py 109): INFO Cache 0: Changed state to Shared
+[2022-11-10 20:22:04 MESICache] (cache.py 169): INFO Cache 1: Snooped from other cache, Line State S
+[2022-11-10 20:22:04 MESICache] (simulator.py 60): INFO Instruction 7:
+[2022-11-10 20:22:04 MESICache] (simulator.py 61): INFO Op:W,address:0x7f51,Processor:1
+[2022-11-10 20:22:04 MESICache] (cache.py 193): INFO Cache 1: write request address 0x7f51
+[2022-11-10 20:22:04 MESICache] (cache.py 198): INFO Cache 1: Line not present
+[2022-11-10 20:22:04 MESICache] (cache.py 204): INFO Cache 1: Send write miss on bus
+[2022-11-10 20:22:04 MESICache] (cache.py 96): INFO Cache 0: Bus request address 0x7f51 from Cache 1
+[2022-11-10 20:22:04 MESICache] (cache.py 121): INFO Cache 0: Remote attempt to write block that is exclusive/modified elsewhere, wrote back the cache block and invalidated cache block
+[2022-11-10 20:22:04 MESICache] (cache.py 209): INFO Cache 1: Write data in local cache
+[2022-11-10 20:22:04 MESICache] (simulator.py 60): INFO Instruction 8:
+[2022-11-10 20:22:04 MESICache] (simulator.py 61): INFO Op:W,address:0x7c71,Processor:0
+[2022-11-10 20:22:04 MESICache] (cache.py 193): INFO Cache 0: write request address 0x7c71
+[2022-11-10 20:22:04 MESICache] (cache.py 211): INFO Cache 0: Line in state S
+[2022-11-10 20:22:04 MESICache] (cache.py 227): INFO Cache 0: Sent invalidate on bus
+[2022-11-10 20:22:04 MESICache] (cache.py 96): INFO Cache 1: Bus request address 0x7c71 from Cache 0
+[2022-11-10 20:22:04 MESICache] (cache.py 127): INFO Cache 1: Remote attempt to write shared block, Invalidate Cache
+[2022-11-10 20:22:04 MESICache] (cache.py 230): INFO Cache 0: Change state to exclusive
+[2022-11-10 20:22:04 MESICache] (simulator.py 33): INFO Total flushes: 1	Total hits: 3	Total misses: 6	Total evictions: 0	Total shares: 2	Total bus requests: 9	

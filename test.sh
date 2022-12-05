@@ -1,0 +1,1 @@
+python -m sim.simulator --input_file input/MESI.trace
